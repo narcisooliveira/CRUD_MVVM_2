@@ -65,16 +65,16 @@
                         </Grid.RowDefinitions>
 
                         <Label Grid.Row="0" Grid.Column="0" Content="name"/>
-                        <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding SelectedClient.name}"/>
+                        <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding ClientDetail.name}"/>
 
                         <Label Grid.Row="1" Grid.Column="0" Content="age"/>
-                        <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding SelectedClient.age}"/>
+                        <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding ClientDetail.age}"/>
 
                         <Label Grid.Row="2" Grid.Column="0" Content="gender"/>
-                        <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding SelectedClient.gender}"/>
+                        <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding ClientDetail.gender}"/>
 
                         <Label Grid.Row="3" Grid.Column="0" Content="address"/>
-                        <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding SelectedClient.address}"/>
+                        <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding ClientDetail.address}"/>
 
                         <Button Grid.Row="4" HorizontalAlignment="Right" Width="100" Grid.ColumnSpan="2" Content="Add" 
                                 Margin="5" Command="{Binding AddClientCommand}"/>
@@ -100,7 +100,7 @@
                             <RowDefinition/>
                         </Grid.RowDefinitions>
 
-                        <Label Grid.Row="0" Grid.Column="0" Content="Name"/>
+                        <Label Grid.Row="0" Grid.Column="0" Content="name"/>
                         <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding SelectedClient.name}"/>
 
                         <Label Grid.Row="1" Grid.Column="0" Content="age"/>

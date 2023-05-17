@@ -79,6 +79,7 @@ namespace CRUD_MVVM_2.ViewModels
         private void UpdateClient(object obj)
         {
             clientEntities.SaveChanges();
+            SelectedClient = new ClientDetail();
         }
 
         private void Update(object obj)
